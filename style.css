@@ -159,7 +159,28 @@ body{
         margin-left: 5%;
         margin-right: 5%;
     }
-    /* section 3 responsive started */
     
+    /* section 3 responsive started */
+    .sec_3{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .div_in_sec3{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 12px;
+    }
+    .div_img_3{
+        width: 100%;
+    }
+    .div_text_3{
+        width: 100%;
+        margin-left: 0;
+    }
+    .two_f{
+        width: 100%;
+        height: auto;
+    }
     
 }
