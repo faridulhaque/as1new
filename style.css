@@ -106,10 +106,16 @@ body{
 }
 /* section 2 decoration ended */
 /* section 3 started */
-
-
-
-
+.div_in_sec3{
+    display: flex;
+}
+.two_f{
+    width: 380px;
+    height: 300px;
+}
+.div_text_3{
+    margin-left: 75px;
+}
 
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* media query for mobile */
