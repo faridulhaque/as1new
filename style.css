@@ -1,0 +1,159 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* section 1 decoration started */
+.sec_1{
+    width: 86%;
+    
+    margin-left: 7%;
+    margin-right: 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div_img, .div_text{
+    width: 100%;
+}
+.div_img img{
+    width: 90%;
+    margin-left: 10%;
+
+    
+}
+.div_border{
+    border-left: solid red 5px;
+    font-weight: 900;
+}
+.div_border h1{
+    font-size: 36px;
+    margin-left: 5px;
+}
+.div_border span{
+    color: rgb(255,173,90);
+}
+.div_text p{
+    font-size: 12px;
+    text-align: justify;
+
+}
+.div_text a, .button{
+    color: white;
+    text-decoration: none;
+    background-color: #ff5959;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 3px;
+}
+/* section 1 decoration ended */
+/* --------------------------------------------------------------------- */
+/* section 2 started */
+.sec_2, .sec_3{
+    width: 86%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 50px;
+}
+.sec_2 h1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #13103a;
+}
+.sec_2 h1 span{
+    color: #ffad5a;
+}
+.all_card{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.card{
+    width: 280px;
+    height: 300px;
+    border: solid 1px white;
+    border-radius: 10px;
+}
+.bg-1{
+    background-color: #edf5f6;
+}
+.bg-2{
+    background-color: #ffeeee;
+}
+.bg-3{
+ background-color: #fff4d6;
+}
+
+.ills{
+    height: 80px;
+    width: 80px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.card h3{
+    margin-left: 15px;
+}
+.card p{
+    margin-right: 15px;
+    margin-left: 15px;
+    
+    font-size: 14px;
+    text-align: justify;
+
+}
+/* section 2 decoration ended */
+/* section 3 started */
+
+
+
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* media query for mobile */
+@media only screen and (max-width: 576px) {
+    body{
+        
+        font-size: auto;
+        
+    }
+    .sec_1{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+        
+    }
+    .div_img img{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;    
+    }
+    .div_text{
+        order: 1;
+    }
+    .div_img{
+    order: 0;
+    }
+    .div_text a{
+    margin-left: 99.5px;
+    }
+    /* section 2 responsive started */
+    .sec_2 h1{
+        font-size: 24px;
+    }
+    .all_card{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 10px;
+    }
+    .card{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    /* section 3 responsive started */
+    
+    
+}
