@@ -106,6 +106,13 @@ body{
 }
 /* section 2 decoration ended */
 /* section 3 started */
+.sec_4{
+    width: 86%;
+    margin-right:  7%;
+    margin-left: 7%;
+    margin-top: 50px;
+
+}
 .div_in_sec3{
     display: flex;
 }
@@ -116,15 +123,23 @@ body{
 .div_text_3{
     margin-left: 75px;
 }
-
+/* section 3 ended */
+/* section 4 started */
+.div_in_sec4{
+ display: flex;
+}
+.div_text_4, .div_img_4{
+    width: 50%;
+}
+.men{
+    width: 380px;
+    height: 300px;
+    margin-left: 75px;
+}
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* media query for mobile */
 @media only screen and (max-width: 576px) {
-    body{
-        
-        font-size: auto;
-        
-    }
+    
     .sec_1{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -160,13 +175,13 @@ body{
         margin-right: 5%;
     }
     
-    /* section 3 responsive started */
-    .sec_3{
+    /* section 3 & 4 responsive started */
+    .sec_3, .sec_4{
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
     }
-    .div_in_sec3{
+    .div_in_sec3, .div_in_sec4{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 12px;
@@ -174,13 +189,27 @@ body{
     .div_img_3{
         width: 100%;
     }
+    
     .div_text_3{
         width: 100%;
         margin-left: 0;
+    }
+    .div_img_4{
+        width: 100%;
+        
+        order: 0;
+    }
+    .div_text_4{
+        width: 100%;
+        order: 1;
     }
     .two_f{
         width: 100%;
         height: auto;
     }
-    
+    .men{
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
 }
