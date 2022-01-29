@@ -106,12 +106,11 @@ body{
 }
 /* section 2 decoration ended */
 /* section 3 started */
-.sec_4{
+.sec_3{
     width: 86%;
     margin-right:  7%;
     margin-left: 7%;
     margin-top: 50px;
-
 }
 .div_in_sec3{
     display: flex;
@@ -125,6 +124,13 @@ body{
 }
 /* section 3 ended */
 /* section 4 started */
+.sec_4{
+    width: 86%;
+    margin-right:  7%;
+    margin-left: 7%;
+    margin-top: 50px;
+
+}
 .div_in_sec4{
  display: flex;
 }
@@ -136,9 +142,31 @@ body{
     height: 300px;
     margin-left: 75px;
 }
+/* section 4 ended */
+/* footer started */
+footer{
+    margin-top: 50px;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white
+}
+footer h3{
+    text-align: center;
+    margin-top: 10px;
+}
+.red{
+    color: red;
+}
+footer h6{
+    text-align: center;
+}
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* media query for mobile */
 @media only screen and (max-width: 576px) {
+    body{
+        font-size: auto;
+    }
     
     .sec_1{
         display: grid;
@@ -212,4 +240,8 @@ body{
         height: auto;
         margin-left: 0;
     }
+    footer{
+        margin-top: 50px;
+    }
 }
+
