@@ -248,4 +248,36 @@ footer h6{
     body{
         font-size: auto;
     }
+    .sec_1{
+        width: 90%;
+        
+        margin-left: 5%;
+        margin-right: 5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .div_img, .div_text{
+        width: 50%;
+    }
+    .sec_2, .sec_3, .sec_4{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .all_card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 30px;
+    }
+    .div_text_3{
+        margin-left: 25px;
+    }
+    .men{
+        margin-left: 25px;
+    }
+
+    .div_text_4{
+        width: 40%;
+    }
 }
